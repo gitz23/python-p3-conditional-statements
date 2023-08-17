@@ -3,7 +3,7 @@
 def admin_login(username, password):
     # your code here
     if username == "ADMIN" or "admin" and password == "12345":
-        return(print("Accsess granted"))
+        (print("Accsess granted"))
     else:
         print("Access denied")
 # #tests
@@ -15,13 +15,13 @@ def admin_login(username, password):
 def hows_the_weather(temperature):
     # your code here
     if temperature < 40:
-        return(print("It's brisk out there!"))
+        print("It's brisk out there!")
     elif 40 <= temperature <= 65:
-        return(print("It's a little chilly out there!"))
+        print("It's a little chilly out there!")
     elif temperature > 85:
-        return(print("It's too dang hot out there!"))
+        print("It's too dang hot out there!")
     else:
-        return(print("It's perfect out there!"))
+        print("It's perfect out there!")
 # #tests
 # hows_the_weather(12)
 # hows_the_weather(40)
@@ -34,13 +34,13 @@ def hows_the_weather(temperature):
 def fizzbuzz(num):
     # your code here
     if num % 3 and num % 5 == 0:
-        return(print("FizzBuzz"))
+       print("FizzBuzz")
     elif  num % 3 == 0:
-        return(print("Fizz"))
+        print("Fizz")
     elif num % 5 == 0:
-        return(print("Buzz"))
+        print("Buzz")
     else:
-        return(print(num))
+        print(num)
 # #tests
 # fizzbuzz(3)
 # fizzbuzz(6)
@@ -77,9 +77,9 @@ def calculator(operation, num1, num2):
     ops = num_map.get(operation, "Invalid operation!")
     print(ops)
 
-#tests
-calculator("+", 2,3)
-calculator("-", 2,3)
-calculator("/", 2,3)
-calculator("*", 2,3)
-calculator("//", 2,3)
+# #tests
+# calculator("+", 2,3)
+# calculator("-", 2,3)
+# calculator("/", 2,3)
+# calculator("*", 2,3)
+# calculator("//", 2,3)
