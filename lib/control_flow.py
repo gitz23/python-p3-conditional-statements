@@ -35,7 +35,7 @@ def fizzbuzz(num):
     # your code here
     if num % 3 and num % 5 == 0:
        print("FizzBuzz")
-    elif  num % 3 == 0:
+    elif num % 3 == 0:
         print("Fizz")
     elif num % 5 == 0:
         print("Buzz")
@@ -74,6 +74,7 @@ def calculator(operation, num1, num2):
         "*" : num1 * num2,
         "/" : num1 / num2,
     }
+    # look for the operation in the keys, if not there the default value of that not found key is the second arg
     ops = num_map.get(operation, "Invalid operation!")
     print(ops)
 
